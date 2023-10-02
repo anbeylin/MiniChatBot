@@ -1,0 +1,11 @@
+{
+  "llm_settings": {
+    "open_ai_api_key":"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",
+    "model":"text-davinci-003",
+    "temperature":0.7
+  },
+  "storage_settings":{
+    "local_storage_name":"local_chat_memory",
+    "retrieval_msg_count": 4
+  }
+}
