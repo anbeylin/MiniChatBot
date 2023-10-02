@@ -1,6 +1,6 @@
 {
   "llm_settings": {
-    "open_ai_api_key":"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",
+    "open_ai_api_key":"",
     "model":"text-davinci-003",
     "temperature":0.7
   },
