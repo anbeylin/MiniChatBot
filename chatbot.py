@@ -24,7 +24,7 @@ def main():
 
     ### --- Main conversation loop ---
     while True:
-        new_user_input = input("Please enter a message or type 'exit' to stop: \n")
+        new_user_input = input("\nPlease enter a message or type 'exit' to stop: \n")
 
         if new_user_input.lower() == 'exit':
             print("Exiting program...")
@@ -32,7 +32,7 @@ def main():
 
         chat_bot_answer = AskChatBot(chat_bot_chain, memory, new_user_input)
 
-        print("Simple Chat Bot:\n", chat_bot_answer)
+        print("\nSimple Chat Bot:", chat_bot_answer)
 
         # Keep current conversation in memory
         SaveConversation(memory, new_user_input, chat_bot_answer)
